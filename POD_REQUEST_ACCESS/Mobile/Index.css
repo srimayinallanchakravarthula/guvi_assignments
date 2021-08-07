@@ -1,0 +1,95 @@
+.root {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    /*background: hsl(233, 47%, 7%);*/
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    background: rgb(25, 24, 27);
+    color: hsl(0, 0%, 100%);
+    overflow: hidden;
+    width: 400px;
+    height: 600px;
+}
+
+.everywhere {
+    color: azure;
+}
+
+.logo-header {
+    font-size: 1.5rem;
+}
+
+.logo {
+    color: hsl(147, 64%, 61%);
+}
+
+.card-content {
+    content: "";
+    padding: 2rem;
+    background-image: url('https://flypaper.soundfly.com/wp-content/uploads/2014/12/recording-studio.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 0.75;
+}
+
+.text-header {
+    color: hsl(147, 64%, 61%);
+    font-size: 1.6rem;
+}
+
+.text {
+    font-size: 1.1rem;
+}
+
+.footer {
+    top: 70%;
+    transform: translateY(100%);
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    background: grey;
+    margin-top: 70px;
+    height: 20px;
+    width: 300px;
+    border-radius: 1rem;
+    padding: 10px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.request {
+    background: hsl(147, 64%, 61%);
+    margin-top: 20px;
+    height: 20px;
+    width: 300px;
+    border-radius: 1rem;
+    padding: 10px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-info {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
